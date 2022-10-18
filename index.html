@@ -9,14 +9,11 @@
 
 function run(){
     changeColor(randomColor());
-    document.write(meditation());
+    document.write('meditation');
     setTimeout(run, Math.random()*6000);
 }
 
 run();
-
-
-
 
 function randomColor(){
     var colorArray = [
@@ -60,7 +57,8 @@ function randomColor(){
     return colorArray[Math.floor(Math.random()*colorArray.length)];
 }
 
- function meditation(){
+/* function meditation(){
+     
     var meditations = [
         "my breath",
         "my pulse",
@@ -98,7 +96,7 @@ function randomColor(){
       
     return meditations[Math.floor(Math.random()*meditations.length)];
 
-} 
+} */
 
 function changeColor(color){
   document.body.style.background = color;
