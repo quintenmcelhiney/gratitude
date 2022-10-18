@@ -1,6 +1,7 @@
 
 function run(){
     changeColor(randomColor());
+    meditation();
     setTimeout(run, Math.random()*6000);
 }
 
