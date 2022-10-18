@@ -48,7 +48,7 @@ function randomColor(){
     return colorArray[Math.floor(Math.random()*colorArray.length)];
 }
 
-/* function meditation(){
+function meditation(){
      
     var meditations = [
         "my breath",
@@ -83,11 +83,12 @@ function randomColor(){
         "culture",
         "the beautiful",
         "science"
-        ];
+        
+    ];
       
     return meditations[Math.floor(Math.random()*meditations.length)];
 
-} */
+} 
 
 function changeColor(color){
   document.body.style.background = color;
