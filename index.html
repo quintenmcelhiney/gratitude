@@ -2,18 +2,58 @@
 <body>
 
 <h2> MEDITATE ON RIGHT ACTION. </h2>
-<h2> FEEL GRATITUDE FOR THE NOW. </h2>
-<h2> LET NO ONE EVER COME TO YOU WITHOUT LEAVING HAPPIER. </h2>
-<pre>
+<h2> FEEL GRATITUDE FOR The Now. </h2>
     
+<pre>
 <script>
 
 function run(){
     changeColor(randomColor());
-    setTimeout(run, Math.random()*10000);
+    document.write(meditation());
+    setTimeout(run, Math.random()*6000);
 }
 
 run();
+
+function meditation(){
+    var meditations = [
+        "my breath",
+        "my pulse",
+        "my voice",
+        "my brain",
+        "my eyes",
+        "my legs",
+        "touch",
+        "my friends",
+        "my sister",
+        "my mother",
+        "my brother",
+        "my father",
+        "my ancestors",
+        "my history",
+        "my teachers",
+        "my family",
+        "my home",
+        "the air",
+        "the light",
+        "the universe",
+        "existence",
+        "mind",
+        "movement",
+        "my animal friends",
+        "art",
+        "language",
+        "the vast",
+        "the infinite",
+        "my cosmic insignificance".
+        "culture",
+        "the beautiful",
+        "science"
+        ]
+      
+    return meditations[Math.floor(Math.random()*meditations.length)];
+
+}
 
 
 function randomColor(){
