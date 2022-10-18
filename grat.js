@@ -86,7 +86,8 @@ function meditation(){
         
     ];
       
-    return meditations[Math.floor(Math.random()*meditations.length)];
+    var rn = Math.floor(Math.random()*meditations.length);
+    document.getElementById('meditation').innerHTML = meditations[rn];
 
 } 
 
