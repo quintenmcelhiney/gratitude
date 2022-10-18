@@ -1,7 +1,7 @@
 
 function run(){
     changeColor(randomColor());
-    document.write('meditation');
+    //document.write('meditation');
     setTimeout(run, Math.random()*6000);
 }
 
