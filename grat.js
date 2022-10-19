@@ -44,6 +44,9 @@ var meds = [
         
     ];
 
+var med = meds[Math.floor(Math.random()*meds.length)];
+document.getElementbyId("meditation").textContent = med;
+
 
 
 function randomColor(){
