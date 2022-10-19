@@ -1,7 +1,8 @@
+const meds = "";
 
 
 function run(){
-    document.write('debug');
+    
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
 }
