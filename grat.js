@@ -7,7 +7,7 @@ function run(){
 
 run();
 
-var meds = [
+/*var meds = [
         "my breath",
         "my pulse",
         "my voice",
@@ -45,7 +45,7 @@ var meds = [
     ];
 
 var med = meds[Math.floor(Math.random()*meds.length)];
-document.getElementbyId("meditation").textContent = med;
+document.getElementbyId("meditation").textContent = med; */
 
 
 
