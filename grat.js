@@ -1,4 +1,4 @@
-const meds = [
+var meds = [
         "my breath",
         "my pulse",
         "my voice",
@@ -37,7 +37,7 @@ const meds = [
 
 
 function run(){
-    document.write(meds[10]);
+    console.log(meds);
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
 }
