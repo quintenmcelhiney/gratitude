@@ -1,8 +1,42 @@
-const meds = "";
+const meds = [
+        "my breath",
+        "my pulse",
+        "my voice",
+        "my brain",
+        "my eyes",
+        "my legs",
+        "touch",
+        "my friends",
+        "my sister",
+        "my mother",
+        "my brother",
+        "my father",
+        "my ancestors",
+        "my history",
+        "my teachers",
+        "my family",
+        "my home",
+        "the air",
+        "the light",
+        "the universe",
+        "existence",
+        "mind",
+        "movement",
+        "my animal friends",
+        "art",
+        "language",
+        "the vast",
+        "the infinite",
+        "my cosmic insignificance".
+        "culture",
+        "the beautiful",
+        "science"
+        
+    ];
 
 
 function run(){
-    
+    document.write(meds[10]);
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
 }
