@@ -5,6 +5,7 @@ const meds = [
         "my brain",
         "my eyes",
         "my legs",
+        "my hands",
         "touch",
         "my friends",
         "my sister",
