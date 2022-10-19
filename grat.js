@@ -1,7 +1,11 @@
+const fs = require('fs');
+var data = fs.readFileSync('meds.txt','utf8');
+var lines = data.split('/\r?\n/');
+console.log(line);
 
 function run(){
+    
     changeColor(randomColor());
-    meditation();
     setTimeout(run, Math.random()*6000);
 }
 
