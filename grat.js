@@ -1,9 +1,6 @@
-/*const fs = require('fs');
-var data = fs.readFileSync('meds.txt','utf8');
-var lines = data.split('/\r?\n/');*/
+
 
 function run(){
-    //document.getElementById('meditation').outerHTML = lines[5];
     document.write('debug');
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
@@ -52,6 +49,12 @@ function randomColor(){
     
     return colorArray[Math.floor(Math.random()*colorArray.length)];
 }
+
+/*const fs = require('fs');
+var data = fs.readFileSync('meds.txt','utf8');
+var lines = data.split('/\r?\n/');*/
+//document.getElementById('meditation').outerHTML = lines[5];
+
 
 
 
