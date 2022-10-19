@@ -1,9 +1,9 @@
-const fs = require('fs');
+/*const fs = require('fs');
 var data = fs.readFileSync('meds.txt','utf8');
-var lines = data.split('/\r?\n/');
+var lines = data.split('/\r?\n/');*/
 
 function run(){
-    document.getElementById('meditation').outerHTML = lines[5];
+    //document.getElementById('meditation').outerHTML = lines[5];
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
 }
