@@ -4,7 +4,7 @@ var lines = data.split('/\r?\n/');
 console.log(lines);
 
 function run(){
-    document.getElementById('meditation').innerHTML = lines[5];
+    //document.getElementById('meditation').innerHTML = lines[5];
     changeColor(randomColor());
     setTimeout(run, Math.random()*6000);
 }
