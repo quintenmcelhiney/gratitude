@@ -2,6 +2,7 @@
 function run(){
     //console.log(meds);
     changeColor(randomColor());
+    document.getElementbyId("meditation").textContent = "will this work mr machine?";
     setTimeout(run, Math.random()*6000);
 }
 
